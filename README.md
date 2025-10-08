@@ -1,1 +1,1 @@
-# mlops-course1
+# AGH MLOPS COURSE
