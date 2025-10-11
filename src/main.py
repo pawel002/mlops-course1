@@ -3,8 +3,7 @@ import yaml
 import argparse
 from dotenv import load_dotenv
 from settings import Settings
-
-SECRETS_PATH = "secrets.yaml"
+from constants import SECRETS_PATH
 
 
 def export_envs(environment: str = "dev"):
