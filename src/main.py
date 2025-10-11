@@ -8,7 +8,7 @@ SECRETS_PATH = "secrets.yaml"
 
 
 def export_envs(environment: str = "dev"):
-    return load_dotenv(f".env.{environment}")
+    return load_dotenv(f"./config/.env.{environment}")
 
 
 def load_secrets(path):
